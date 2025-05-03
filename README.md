@@ -23,7 +23,7 @@
       padding: 20px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       text-align: center;
-      max-width: 350px;
+      width: 300px;
       animation: fadeIn 1.5s ease;
     }
 
@@ -33,18 +33,21 @@
     }
 
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       color: #ff6f91;
+      margin-bottom: 10px;
     }
 
     p {
-      font-size: 0.95rem;
-      margin-bottom: 15px;
+      font-size: 1rem;
+      margin-bottom: 10px;
       color: #555;
     }
 
     img {
-      max-width: 100%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
       border-radius: 10px;
       margin-bottom: 15px;
       animation: floatImage 3s ease-in-out infinite;
@@ -52,7 +55,7 @@
 
     @keyframes floatImage {
       0% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
+      50% { transform: translateY(-6px); }
       100% { transform: translateY(0px); }
     }
 
@@ -60,7 +63,8 @@
       display: flex;
       justify-content: center;
       gap: 10px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
+      margin-top: 10px;
     }
 
     button {
@@ -70,6 +74,7 @@
       border-radius: 8px;
       cursor: pointer;
       transition: 0.3s;
+      white-space: nowrap;
     }
 
     .yes {
@@ -91,7 +96,7 @@
     }
 
     .message {
-      margin-top: 15px;
+      margin-top: 12px;
       font-weight: bold;
       color: #ff1d58;
       font-size: 0.95rem;
