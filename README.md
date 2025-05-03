@@ -107,10 +107,10 @@
     <h1>HAI CINTA</h1>
     <img src="april.png" alt="Foto Cinta">
     <p>Aku cuma mau bilang...</p>
-    <p style="font-size: 1.3rem;"><strong>AKU MENCINTAIMU</strong></p>
+    <p style="font-size: 1.3rem;"><strong>I LOVE YOU</strong></p>
 
     <div class="btn-group">
-      <button class="yes" onclick="loveBack()">AKU JUGA CINTA KAMU</button>
+      <button class="yes" onclick="loveBack()">I LOVE YOU</button>
       <button class="no" onclick="noLove()">GA DULU WLEE</button>
     </div>
 
@@ -119,7 +119,7 @@
 
   <script>
     function loveBack() {
-      document.getElementById("message").innerHTML = "Aku juga sayang kamu banget april bot!";
+      document.getElementById("message").innerHTML = "TAPI BOONG !";
     }
 
     function noLove() {
