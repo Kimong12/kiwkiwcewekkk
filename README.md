@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -98,7 +98,7 @@
 </head>
 <body>
   <div class="card">
-    <h1>HAI BOTT</h1>
+    <h1>HAI CINTA</h1>
     <img src="april.png"/>
     <p> Aku cuma mau bilang...</p>
     <p style="font-size: 1.5rem;"><strong>I LOVE YOU </strong></p>
