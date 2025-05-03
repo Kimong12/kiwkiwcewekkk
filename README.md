@@ -1,4 +1,5 @@
-<html lang="en">
+
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -18,12 +19,12 @@
 
     .card {
       background: white;
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       text-align: center;
-      max-width: 500px;
-      animation: fadeIn 2s ease;
+      max-width: 350px;
+      animation: fadeIn 1.5s ease;
     }
 
     @keyframes fadeIn {
@@ -32,40 +33,41 @@
     }
 
     h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #ff6f91;
     }
 
     p {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
       color: #555;
     }
 
     img {
       max-width: 100%;
-      border-radius: 15px;
-      margin-bottom: 20px;
-      animation: floatImage 4s ease-in-out infinite;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      animation: floatImage 3s ease-in-out infinite;
     }
 
     @keyframes floatImage {
       0% { transform: translateY(0px); }
-      50% { transform: translateY(-10px); }
+      50% { transform: translateY(-8px); }
       100% { transform: translateY(0px); }
     }
 
     .btn-group {
       display: flex;
       justify-content: center;
-      gap: 15px;
+      gap: 10px;
+      flex-wrap: wrap;
     }
 
     button {
-      padding: 10px 20px;
-      font-size: 1rem;
+      padding: 8px 15px;
+      font-size: 0.9rem;
       border: none;
-      border-radius: 10px;
+      border-radius: 8px;
       cursor: pointer;
       transition: 0.3s;
     }
@@ -89,21 +91,22 @@
     }
 
     .message {
-      margin-top: 20px;
+      margin-top: 15px;
       font-weight: bold;
       color: #ff1d58;
+      font-size: 0.95rem;
     }
   </style>
 </head>
 <body>
   <div class="card">
     <h1>HAI CINTA</h1>
-    <img src="april.png"/>
-    <p> Aku cuma mau bilang...</p>
-    <p style="font-size: 1.5rem;"><strong>I LOVE YOU </strong></p>
+    <img src="april.png" alt="Foto Cinta">
+    <p>Aku cuma mau bilang...</p>
+    <p style="font-size: 1.3rem;"><strong>AKU MENCINTAIMU</strong></p>
 
     <div class="btn-group">
-      <button class="yes" onclick="loveBack()">I LOVE YOU TOO MG IMAN</button>
+      <button class="yes" onclick="loveBack()">AKU JUGA CINTA KAMU</button>
       <button class="no" onclick="noLove()">GA DULU WLEE</button>
     </div>
 
@@ -122,4 +125,3 @@
   </script>
 </body>
 </html>
-
